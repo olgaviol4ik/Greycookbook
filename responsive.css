@@ -9,21 +9,25 @@ a#menu img{
   width: 47px;
   height: 47px;
 }
+.container img{
+  max-width: 100%;
+}
 nav{
   width: 250px;
   height: 100%;
   position: absolute;
-  -webkit-transform: translate(-250px, 0);
   transform: translate(-250px, 0);
   transition: transform 0.3s ease;
 }
 nav.open {
-  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 @media screen and (max-width: 779px){
   h3{
     display: none;
+  }
+  main{
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 780px){
@@ -37,18 +41,19 @@ nav.open {
 @media screen and (min-width: 1000px){
   nav#drawer.dark_blue {
     position: relative;
-    -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
   body{
-    display:-webkit-flex;
     display: flex;
-    -webkit-flex-flow: row nowrap;
     flex-flow: row nowrap;
   }
   main{
     width: auto;
     flex-grow: 1;
+  }
+  main aside#sidebar.light_blue{
+    width: 250px;
+    height: 100%;
   }
   a#menu img{
     padding: 1em;

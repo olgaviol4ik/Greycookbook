@@ -20,14 +20,18 @@ header{
 }
 main{
   min-height: 1000px;
+  padding: 15px;
 }
 .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-section{
+article.categories{
   flex: 1;
+}
+article.categories img{
+  width: 100%;
 }
 .box{
   width: 100%;
@@ -40,4 +44,7 @@ a#menu img {
 .dark_blue {
   background-color: #c5cfd4;
   color: #efefef;
+}
+.light_blue{
+  background-color: #e5eaea;
 }
