@@ -1,6 +1,6 @@
 # greycookbook
 future cooking book prototype
-https://olgaviol4ik.github.io/Greycookbook/
+https://olgaviol4ik.github.io/greycookbook/
 
 The project is for the Udacity Front-End Web developmnet nanodegree.
 The project is about creating responsive layout design using breakpoints implemented with media queries in css file.
